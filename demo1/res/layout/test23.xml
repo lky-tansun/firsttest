@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/photo5">
+
+     <EditText
+         android:id="@+id/num1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="80dp"
+         android:layout_marginTop="225dp"
+         android:hint="请输入第一个数" />
+     <EditText 
+         android:id="@+id/num2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="250dp"
+         android:layout_marginTop="225dp"
+         android:hint="请输入第二个数" />
+     <TextView 
+         android:id="@+id/result"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="210dp"
+         android:layout_marginTop="350dp"
+         android:text="简易计算器"/>
+     <Button 
+         android:id="@+id/jia"
+         android:layout_width="60dp"
+         android:layout_height="60dp" 
+         android:layout_marginLeft="110dp"
+         android:layout_marginTop="420dp"
+         android:background="@drawable/jia"/>
+     <Button 
+         android:id="@+id/jian"
+         android:layout_width="60dp"
+         android:layout_height="60dp" 
+         android:layout_marginLeft="210dp"
+         android:layout_marginTop="420dp"
+         android:background="@drawable/jian"/>
+     <Button 
+         android:id="@+id/cheng"
+         android:layout_width="60dp"
+         android:layout_height="60dp" 
+         android:layout_marginLeft="110dp"
+         android:layout_marginTop="510dp"
+         android:background="@drawable/cheng"/>
+     <Button 
+         android:id="@+id/chu"
+         android:layout_width="60dp"
+         android:layout_height="60dp" 
+         android:layout_marginLeft="210dp"
+         android:layout_marginTop="510dp"
+         android:background="@drawable/chu"/>
+     <Button 
+         android:id="@+id/deng"
+         android:layout_width="60dp"
+         android:layout_height="60dp" 
+         android:layout_marginLeft="320dp"
+         android:layout_marginTop="460dp"
+         android:background="@drawable/denghao"/>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demo1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.demo1.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.demo1.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.demo1.ThirdActivity"
+            android:label="@string/title_activity_third" >
+        </activity>
+        <activity
+            android:name="com.example.demo1.FourthActivity"
+            android:label="@string/title_activity_fourth" >
+        </activity>
+        <activity
+            android:name="com.example.demo1.FifthActivity">
+        </activity>
+        <activity
+            android:name="com.example.demo1.SixthActivity">
+        </activity>
+        <activity
+            android:name="com.example.demo1.SeventhActivity">
+        </activity>
+        <activity
+            android:name="com.example.demo1.EighthActivity">
+        </activity>
+        <activity
+            android:name="com.example.demo1.NinthActivity">
+        </activity>
+        <activity
+            android:name="com.example.demo1.TenthActivity">
+        </activity>
+        <activity
+            android:name="com.example.demo1.EleventhActivity">
+        </activity>
+        <activity
+            android:name="com.example.demo1.TwelfthActivity">
+        </activity>
+        <activity
+            android:name="com.example.demo1.ThirteenthActivity">
+        </activity>
+        <activity
+            android:name="com.example.demo1.FourteenthActivity">
+        </activity>
+        
+    </application>
+
+</manifest>
